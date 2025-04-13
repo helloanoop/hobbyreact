@@ -9,12 +9,6 @@ A minimal React project scaffolding tool that helps you quickly create new React
 - 🎨 Clean and minimal template
 - 📦 Modern React setup
 
-## Installation
-
-```bash
-npx hobbyreact
-```
-
 ## Usage
 
 1. Run the create command:
@@ -55,7 +49,6 @@ your-project/
 ├── src/
 │   ├── App.jsx
 │   ├── main.jsx
-│   └── assets/
 ├── index.html
 ├── package.json
 └── vite.config.js
