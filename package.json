@@ -1,7 +1,7 @@
 {
   "name": "hobbyreact",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "bin": "./src/index.js",
   "files": [
@@ -11,7 +11,6 @@
   ],
   "dependencies": {
     "chalk": "^5.3.0",
-    "figlet": "^1.7.0",
     "inquirer": "^9.2.12",
     "fs-extra": "^11.2.0"
   }

@@ -44,7 +44,6 @@ The generated project comes with:
 
 This tool is built with:
 - chalk ^5.3.0 - Terminal string styling
-- figlet ^1.7.0 - ASCII art text generator
 - inquirer ^9.2.12 - Interactive command line prompts
 - fs-extra ^11.2.0 - Enhanced file system methods
 

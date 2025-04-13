@@ -2,7 +2,6 @@
 
 import inquirer from 'inquirer';
 import chalk from 'chalk';
-import figlet from 'figlet';
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -10,11 +9,11 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-console.log(
-  chalk.cyan(
-    figlet.textSync('HobbyReact', { horizontalLayout: 'full' })
-  )
-);
+console.log(chalk.cyan('\nHobbyReact - A minimal React project scaffolding tool'));
+console.log(chalk.white('- 🚀 Quick project setup'));
+console.log(chalk.white('- ⚡️ Powered by Vite'));
+console.log(chalk.white('- 🎨 Clean and minimal template'));
+console.log(chalk.white('- 📦 Modern React setup\n'));
 
 const questions = [
   {
